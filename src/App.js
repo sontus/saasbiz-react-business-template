@@ -27,6 +27,7 @@ function App() {
           <Route exact path="/apps-landing" element={<AppsLanding/>}></Route>
           <Route exact path="/cloud-base-saas" element={<CloudBasedSaas/>}></Route>
         </Route>
+        <Route exact path="/" element={<SupportDesk/>}></Route>
       </Routes>
       <Footer></Footer>
     </Router>
