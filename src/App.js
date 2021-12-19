@@ -20,7 +20,8 @@ function App() {
     <Router>
       <Header></Header>
       <Routes>
-        <Route exact path="/" element={<HomeOne/>}>
+        {/* <Route exact path="/" element={<HomeOne/>}> */}
+        <Route exact path="/" element={<WebHosting/>}>
           <Route exact path="/web-hosting" element={<WebHosting/>}></Route>
           <Route exact path="/support-desk" element={<SupportDesk/>}></Route>
           <Route exact path="/apps-landing" element={<AppsLanding/>}></Route>
