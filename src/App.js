@@ -21,13 +21,13 @@ function App() {
       <Header></Header>
       <Routes>
         {/* <Route exact path="/" element={<HomeOne/>}> */}
-        <Route exact path="/" element={<SupportDesk/>}>
-          <Route exact path="/web-hosting" element={<WebHosting/>}></Route>
-          <Route exact path="/support-desk" element={<SupportDesk/>}></Route>
-          <Route exact path="/apps-landing" element={<AppsLanding/>}></Route>
-          <Route exact path="/cloud-base-saas" element={<CloudBasedSaas/>}></Route>
-        </Route>
-        <Route exact path="/" element={<SupportDesk/>}></Route>
+        <Route exact path="/" element={<HomeOne/>}></Route>
+        <Route  path="/web-hosting" element={<WebHosting/>}></Route>
+        <Route  path="/support-desk" element={<SupportDesk/>}></Route>
+        <Route  path="/apps-landing" element={<AppsLanding/>}></Route>
+        <Route  path="/cloud-base-saas" element={<CloudBasedSaas/>}></Route>
+        
+        {/* <Route  path="/" element={<SupportDesk/>}></Route> */}
       </Routes>
       <Footer></Footer>
     </Router>

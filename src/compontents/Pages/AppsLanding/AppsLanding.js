@@ -1,10 +1,25 @@
 import React from 'react';
+import ContentSection from './ContentSection';
+import ExplorTheFeature from './ExplorTheFeature';
+import ExplorThePlan from './ExplorThePlan';
+import FeatureSection from './FeatureSection';
+import FreeTrial from './FreeTrial';
+import HeroSection from './HeroSection';
+import TryApp from './TryApp';
+import WorkingProcess from './WorkingProcess';
 
 const AppsLanding = () => {
     return (
-        <div>
-            <h1>AppsLanding</h1>
-        </div>
+        <>
+            <HeroSection></HeroSection>
+            <FeatureSection></FeatureSection>
+            <ContentSection></ContentSection>
+            <WorkingProcess></WorkingProcess>
+            <TryApp></TryApp>
+            <ExplorThePlan></ExplorThePlan>
+            <ExplorTheFeature></ExplorTheFeature>
+            <FreeTrial></FreeTrial>
+        </>
     );
 };
 
