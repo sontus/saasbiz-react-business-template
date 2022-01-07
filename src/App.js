@@ -17,6 +17,8 @@ import ContactUs from './compontents/Pages/ContactUs/ContactUs';
 import AboutCompany from './compontents/Pages/AboutCompany/AboutCompany';
 import ServiceOne from './compontents/Pages/Service/ServiceOne';
 import ServiceTwo from './compontents/Pages/Service/ServiceTwo';
+import CaseStudy from './compontents/Pages/Cases/CaseStudy';
+import CaseDetails from './compontents/Pages/Cases/CaseDetails';
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
         <Route path="/about-company" element={<AboutCompany/>}></Route>
         <Route path="/service-one" element={<ServiceOne/>}></Route>
         <Route path="/service-two" element={<ServiceTwo/>}></Route>
+        <Route path="/case-study" element={<CaseStudy/>}></Route>
+        <Route path="/case-study-details" element={<CaseDetails/>}></Route>
 
 
 
