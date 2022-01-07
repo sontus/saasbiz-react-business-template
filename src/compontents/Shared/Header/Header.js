@@ -23,44 +23,44 @@ const Header = () => {
                                         <li><Link to="/cloud-base-saas">Home Cloud Based Saas</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">About</a> 
+                                    <li><Link to="/about-us">About</Link>
                                         <ul>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="about-company.html">About Company</a></li>
+                                        <li><Link to="/about-us">About Us</Link></li>
+                                        <li><Link to="/about-company">About Company</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Services</a> 
+                                    <li><Link to="/about-us">Services</Link>
                                         <ul>
-                                        <li><a href="services-1.html">Services 01</a></li>
-                                        <li><a href="services-2.html">Services 02</a></li>
+                                        <li><Link to="/web-hosting">Services 01</Link></li>
+                                        <li><Link to="/web-hosting">Services 02</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Case Studies</a> 
+                                    <li><Link to="/about-us">Case Studies</Link>
                                         <ul>
-                                        <li><a href="case-studies.html">Case Studies</a></li>
-                                        <li><a href="case-details.html">Case Studies Single</a></li>
+                                        <li><Link to="/web-hosting">Case Studies</Link></li>
+                                        <li><Link to="/web-hosting">Case Studies Single</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Pages</a> 
+                                    <li><Link to="/web-hosting">Pages</Link> 
                                         <ul>
-                                        <li><a href="job-listing.html">Job Listing</a></li>
-                                        <li><a href="job-details.html">Job Details</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="pricing-plans.html">Pricing Plans</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="faq.html">FAQ's</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
+                                        <li><Link to="/web-hosting">Job Listing</Link></li>
+                                        <li><Link to="/web-hosting">Job Details</Link></li>
+                                        <li><Link to="/web-hosting">Our Team</Link></li>
+                                        <li><Link to="/web-hosting">Pricing Plans</Link></li>
+                                        <li><Link to="/web-hosting">Login</Link></li>
+                                        <li><Link to="/web-hosting">Register</Link></li>
+                                        <li><Link to="/web-hosting">FAQ's</Link></li>
+                                        <li><Link to="/web-hosting">404 Error</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Blog</a> 
+                                    <li><Link to="/web-hosting">Blog</Link> 
                                         <ul>
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li><a href="blog-classic.html">Blog Classic</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                        <li><Link to="/web-hosting">Blog Grid</Link></li>
+                                        <li><Link to="/web-hosting">Blog Classic</Link></li>
+                                        <li><Link to="/web-hosting">Blog Single</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                         </div>
                         <div className="header-right">

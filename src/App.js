@@ -12,6 +12,9 @@ import WebHosting from './compontents/Pages/WebHosting/WebHosting';
 import SupportDesk from './compontents/Pages/SupportDesk/SupportDesk';
 import AppsLanding from './compontents/Pages/AppsLanding/AppsLanding';
 import CloudBasedSaas from './compontents/Pages/CloudBasedSaas/CloudBasedSaas';
+import AboutUs from './compontents/Pages/AboutUs/AboutUs';
+import ContactUs from './compontents/Pages/ContactUs/ContactUs';
+import AboutCompany from './compontents/Pages/AboutCompany/AboutCompany';
 
 
 function App() {
@@ -26,6 +29,14 @@ function App() {
         <Route  path="/support-desk" element={<SupportDesk/>}></Route>
         <Route  path="/apps-landing" element={<AppsLanding/>}></Route>
         <Route  path="/cloud-base-saas" element={<CloudBasedSaas/>}></Route>
+        <Route path="/about-us" element={<AboutUs/>}></Route>
+        <Route path="/about-company" element={<AboutCompany/>}></Route>
+
+
+
+
+        
+        <Route path="/contact" element={<ContactUs/>}></Route>
         
         {/* <Route  path="/" element={<SupportDesk/>}></Route> */}
       </Routes>
