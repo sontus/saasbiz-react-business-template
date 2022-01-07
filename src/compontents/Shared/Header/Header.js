@@ -29,10 +29,10 @@ const Header = () => {
                                         <li><Link to="/about-company">About Company</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/about-us">Services</Link>
+                                    <li><Link to="/service-one">Services</Link>
                                         <ul>
-                                        <li><Link to="/web-hosting">Services 01</Link></li>
-                                        <li><Link to="/web-hosting">Services 02</Link></li>
+                                        <li><Link to="/service-one">Services 01</Link></li>
+                                        <li><Link to="/service-two">Services 02</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link to="/about-us">Case Studies</Link>

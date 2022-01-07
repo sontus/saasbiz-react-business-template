@@ -15,6 +15,8 @@ import CloudBasedSaas from './compontents/Pages/CloudBasedSaas/CloudBasedSaas';
 import AboutUs from './compontents/Pages/AboutUs/AboutUs';
 import ContactUs from './compontents/Pages/ContactUs/ContactUs';
 import AboutCompany from './compontents/Pages/AboutCompany/AboutCompany';
+import ServiceOne from './compontents/Pages/Service/ServiceOne';
+import ServiceTwo from './compontents/Pages/Service/ServiceTwo';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route  path="/cloud-base-saas" element={<CloudBasedSaas/>}></Route>
         <Route path="/about-us" element={<AboutUs/>}></Route>
         <Route path="/about-company" element={<AboutCompany/>}></Route>
+        <Route path="/service-one" element={<ServiceOne/>}></Route>
+        <Route path="/service-two" element={<ServiceTwo/>}></Route>
 
 
 
