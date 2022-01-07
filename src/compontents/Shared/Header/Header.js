@@ -19,8 +19,8 @@ const Header = () => {
 
                                         <li><Link to="/web-hosting">Home Web hosting</Link></li>
                                         <li><Link to="/support-desk">Home Support Desk</Link></li>
-                                        <li><Link to="/">Home Apps Landing</Link></li>
-                                        <li><Link to="/">Home Cloud Based Saas</Link></li>
+                                        <li><Link to="/apps-landing">Home Apps Landing</Link></li>
+                                        <li><Link to="/cloud-base-saas">Home Cloud Based Saas</Link></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">About</a> 
