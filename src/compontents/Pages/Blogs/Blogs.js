@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PriceAndPlaning = () => {
+const Blogs = () => {
     return (
         <>
             
@@ -8,4 +8,4 @@ const PriceAndPlaning = () => {
     );
 };
 
-export default PriceAndPlaning;
+export default Blogs;

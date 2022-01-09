@@ -5,11 +5,11 @@ const ContactUs = () => {
         <>
         <div className="header-height"></div>
         
-        <div className="mapouter"><div className="gmap_canvas"><iframe width={'100%'} height={'350'} id="gmap_canvas" src="https://maps.google.com/maps?q=Dynamic%20Layers&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com/"></a></div></div>
+        <div className="mapouter"><div className="gmap_canvas"><iframe width={'100%'} height={'350'} id="gmap_canvas" src="https://maps.google.com/maps?q=Dynamic%20Layers&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameBorder={'0'} scrolling={'no'} marginHeight={'0'} marginWidth={'0'}></iframe><a href="https://www.emojilib.com/"></a></div></div>
 		
 		<section className="contact-section padding">
             <div className="map"></div>
-		    <div className="container">
+		    <div className="container"> 
 		        <div className="contact-wrap d-flex align-items-center row">
                     <div className="col-lg-6 sm-padding">
 		                <div className="contact-info">

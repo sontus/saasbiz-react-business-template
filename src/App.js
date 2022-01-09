@@ -19,6 +19,17 @@ import ServiceOne from './compontents/Pages/Service/ServiceOne';
 import ServiceTwo from './compontents/Pages/Service/ServiceTwo';
 import CaseStudy from './compontents/Pages/Cases/CaseStudy';
 import CaseDetails from './compontents/Pages/Cases/CaseDetails';
+import JobListing from './compontents/Pages/Jobs/JobListing';
+import JobDetails from './compontents/Pages/Jobs/JobDetails';
+import Team from './compontents/Pages/Team/Team';
+import PriceAndPlaning from './compontents/Pages/PriceAndPlaning/PriceAndPlaning';
+import Login from './compontents/Pages/Login/Login';
+import Register from './compontents/Pages/Register/Register';
+import Faq from './compontents/Pages/Faq/Faq';
+import PageNotFound from './compontents/Pages/PageNotFound/PageNotFound';
+import BlogClassic from './compontents/Pages/Blogs/BlogClassic';
+import Blogs from './compontents/Pages/Blogs/Blogs';
+import BlogDetails from './compontents/Pages/Blogs/BlogDetails';
 
 
 function App() {
@@ -39,11 +50,23 @@ function App() {
         <Route path="/service-two" element={<ServiceTwo/>}></Route>
         <Route path="/case-study" element={<CaseStudy/>}></Route>
         <Route path="/case-study-details" element={<CaseDetails/>}></Route>
+        <Route path="/job-listing" element={<JobListing/>}></Route>
+        <Route path="/job-details" element={<JobDetails/>}></Route>
+        <Route path="/our-team" element={<Team/>}></Route>
+        <Route path="/pricing-plans" element={<PriceAndPlaning/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/register" element={<Register/>}></Route>
+        <Route path="/faq" element={<Faq/>}></Route>
+        <Route path="/blog" element={<Blogs/>}></Route>
+        <Route path="/blog-classic" element={<BlogClassic/>}></Route>
+        <Route path="/blog-details" element={<BlogDetails/>}></Route>
+
 
 
 
 
         
+        <Route path="*" element={<PageNotFound/>}></Route>
         <Route path="/contact" element={<ContactUs/>}></Route>
         
         {/* <Route  path="/" element={<SupportDesk/>}></Route> */}

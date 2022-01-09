@@ -41,23 +41,23 @@ const Header = () => {
                                         <li><Link to="/case-study-details">Case Studies Single</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/web-hosting">Pages</Link> 
+                                    <li><Link to="/job-listing">Pages</Link> 
                                         <ul>
-                                        <li><Link to="/web-hosting">Job Listing</Link></li>
-                                        <li><Link to="/web-hosting">Job Details</Link></li>
-                                        <li><Link to="/web-hosting">Our Team</Link></li>
-                                        <li><Link to="/web-hosting">Pricing Plans</Link></li>
-                                        <li><Link to="/web-hosting">Login</Link></li>
-                                        <li><Link to="/web-hosting">Register</Link></li>
-                                        <li><Link to="/web-hosting">FAQ's</Link></li>
-                                        <li><Link to="/web-hosting">404 Error</Link></li>
+                                        <li><Link to="/job-listing">Job Listing</Link></li>
+                                        <li><Link to="/job-details">Job Details</Link></li>
+                                        <li><Link to="/our-team">Our Team</Link></li>
+                                        <li><Link to="/pricing-plans">Pricing Plans</Link></li>
+                                        <li><Link to="/login">Login</Link></li>
+                                        <li><Link to="/register">Register</Link></li>
+                                        <li><Link to="/faq">FAQ's</Link></li>
+                                        <li><Link to="*">404 Error</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/web-hosting">Blog</Link> 
+                                    <li><Link to="/blog">Blog</Link> 
                                         <ul>
-                                        <li><Link to="/web-hosting">Blog Grid</Link></li>
-                                        <li><Link to="/web-hosting">Blog Classic</Link></li>
-                                        <li><Link to="/web-hosting">Blog Single</Link></li>
+                                        <li><Link to="/blog">Blog Grid</Link></li>
+                                        <li><Link to="/blog-classic">Blog Classic</Link></li>
+                                        <li><Link to="/blog-details">Blog Single</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link to="/contact">Contact</Link></li>
